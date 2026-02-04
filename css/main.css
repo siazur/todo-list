@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url(./reset.css);
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #82C391;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+
+.container {
+    margin: 55px 0 0 0;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.25);
+    background: #f9f7f7;
+    background-color: #f9f7f7;
+}
+
+.header {
+    margin: 15px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.add-task {
+    display: flex;
+    justify-content: space-between;
+    background-color: #DBE2EF;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7B7B7B;
+    margin: 0 175px;
+    padding: 10px;
+    border: 1px solid rgba(177, 177, 177, 0.4);
+    border-radius: 5px;
+    word-wrap: break-word;
+}
+
+#form {
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.button-add-task:hover {
+    opacity: 0.7;
+}
+
+.button-add-task:active {
+    opacity: 0.9;
+}
+
+.line {
+    margin: 15px 50px 0;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DBE2EF;
+    margin: 15px 55px;
+    padding: 15px 20px;
+    font-weight: 400;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.task-elements {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*.task-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+.task-text {
+    padding: 10px;
+    word-wrap: break-word;
+    max-width: 100%;
+}
+
+.task-button, .task-text {
+    line-height: 1; 
+}
+
+.task-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 24px;
+    flex-shrink: 0;
+}
+
+.task-button:hover {
+    opacity: 0.7;
+}
+
+.task-button:active {
+    opacity: 0.9;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">Список дел</header>
+        <div class="add-task">
+            <form id="form">
+                <input type="text" class="task-input" id="taskInput" placeholder="Добавить новую задачу" required>
+                <button class="button-add-task">
+                <span><img src="img/add_plus.svg" alt="+" class="icon"></span>
+            </button>
+            </form>
+        </div>
+        <img src="/img/line.png" alt="" class="line">
+        <ul id = "tasksList" class="tasks-list">
+            <!-- <li class="task">
+                <button class="task-button">
+                    <span><img src="/img/check.svg" alt="" class="task-img">
+                    </span>
+                </button>
+                <span class="task-text">Верстка сайта</span>
+            </li>
+            <li class="task">
+                <button class="task-button">
+                    <span><img src="/img/check1.svg" alt="" class="task-img" id="checkIMg">
+                    </span>
+                </button>
+                <span class="task-text">Ужин</span>
+            </li> -->
+        </ul>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
