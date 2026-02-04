@@ -24,7 +24,7 @@ function addTask(event) {
     const taskHTML = `<li class="task">
                         <div class="task-elements">
                             <button class="task-button" id="task-button">
-                                <span><img src="./img/check1.svg" alt="" class="task-img"></span>
+                                <span><img src="./img/checknull.svg" alt="" class="task-img"></span>
                             </button>
                             <span class="task-text">${taskText}</span>
                         </div>
@@ -43,7 +43,7 @@ function doneButton (event) {
     const doneButton = event.target.closest('.task-button');
     if (doneButton) {
         const img = event.target.closest('.task-button').querySelector('.task-img');
-        img.src = img.src.includes('check1.svg') ? './img/check.svg' : './img/check1.svg';
+        img.src = img.src.includes('checknull.svg') ? './img/check.svg' : './img/check1.svg';
     }
 }
 
