@@ -56,10 +56,6 @@ body {
     opacity: 0.9;
 }
 
-.line {
-    margin: 15px 50px 0;
-}
-
 .task {
     display: flex;
     align-items: center;
