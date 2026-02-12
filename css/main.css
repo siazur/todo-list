@@ -27,13 +27,14 @@ body {
 }
 
 .add-task {
+    width: 35%;
     display: flex;
     justify-content: space-between;
     background-color: #DBE2EF;
     font-size: 14px;
     font-weight: 400;
     color: #7B7B7B;
-    margin: 0 175px;
+    margin: 10px auto;
     padding: 10px;
     border: 1px solid rgba(177, 177, 177, 0.4);
     border-radius: 5px;
@@ -103,4 +104,33 @@ body {
 
 .task-button:active {
     opacity: 0.9;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        margin: 30px;
+    }
+
+    .add-task {
+        width: 40%;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 90%;
+        margin: 30px;
+    }
+    
+    .add-task {
+        width: 60%;
+        margin: 10px auto;
+    }
+
+    .task {
+        width: 80%;
+        margin: 10px auto;
+        padding: 5px 10px;
+    }
 }
