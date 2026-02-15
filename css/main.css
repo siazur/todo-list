@@ -88,6 +88,8 @@ body {
 .task-text {
     padding: 10px;
     word-wrap: break-word;
+    word-break: break-all;
+    white-space: pre-wrap;
     max-width: 100%;
 }
 
